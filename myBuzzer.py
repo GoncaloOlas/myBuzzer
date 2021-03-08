@@ -12,13 +12,14 @@ minutes = 0
 #Ask to begin
 start = input("Lets start, shall we? (y/n)")
 
-if start == y:
-    loop = 1
+if start == "y":
+    loop = True
 
-while loop = 1 and minutes < 90:
+while loop and minutes < 90:
     seconds +=1
     print(str(minutes) + " mins " + str(seconds) + " secs")
-    if seconds = 60:
+    #time.sleep(1)
+    if seconds == 60:
         seconds = 0
         minutes += 1
     print(str(minutes) + " mins " + str(seconds) + " secs")
