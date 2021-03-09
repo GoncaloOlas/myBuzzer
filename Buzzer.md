@@ -1,4 +1,3 @@
-# GO buzzer <h1>
 # Introduction <h2> 
 This project serves only one purpose, it times my study time.
 I always try to study in 90 min blocks, but I hate loud buzzers (pun intended)
